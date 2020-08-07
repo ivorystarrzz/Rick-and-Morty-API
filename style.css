@@ -1,0 +1,53 @@
+.leftside, .rightside{
+    height: 50vh;
+    width: 100%;
+}
+
+
+@media screen and (min-width:768px)
+{
+    .leftside, .rightside, .group{
+        height: 100vh;
+        min-height: 100%;
+
+    }
+}
+
+
+.leftside{
+    background: #2bb2bb;
+}
+
+.rightside{
+    background: #595238;
+}
+
+#pics, #pics2{
+    border-radius: 50%;
+    position: relative;
+    left: 25%;
+    top: 100px;
+}
+
+
+.group1, .group2{
+    position: relative;
+    left: -25px;
+    top: 125px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;  
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    left: -45px;
+    top: 80px;
+}
